@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Now!</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="PlayNowJs.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <a href="home.html">
+                <img src="images/Logo_frawlsalla (NoBackground).png" alt="" width="200px">
+            </a>
+        </div>
+
+        <div class="header-right">
+            
+            <div class="navbarGame">
+                <a href="#" class="hyperlink">Game</a>
+                <div class="navbarDropdown">
+                    <a href="Screenshot.html" class="hyperlink">Screenshots</a>
+                    <a href="Event.html" class="hyperlink">Events</a>
+                    <a href="Character.html" class="hyperlink">Characters</a>
+                </div>
+            </div>
+            <div class="navbar">
+                <a href="PlayNow.html" class="hyperlink">Play Now</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <form id="form">
+            <div class="register-content">
+                <h1 class="title"><b>Register</b></h1>
+
+                <div class="form">
+                    <label for="name" class="label-form">Name</label>
+                    <input type="text" class="input-form" id="name" placeholder="Input Name">
+                </div>
+
+                <div class="form">
+                    <label for="email" class="label-form">Email</label>
+                    <input type="email" class="input-form" id="email" placeholder="Input Email">
+                </div>
+
+                <div class="form">
+                    <label for="password" class="label-form">Password</label>
+                    <input type="password" class="input-form" id="password" placeholder="Input Password">
+                </div>
+
+                <div class="form">
+                    <label for="genderM" class="label-form">Gender</label>
+                    <input type="radio" class="input-form" id="genderM" value="Male" name="rbGender">
+                    <label for="genderM">Male</label>
+                    <input type="radio" class="input-form" id="genderF" value="Female" name="rbGender">
+                    <label for="genderF">Female</label>
+                </div>
+
+                <div class="form">
+                    <input type="checkbox" name="termsConditions" id="terms">
+                    <label for="terms">Terms & Conditions</label>
+                </div>
+
+                <div id="lblError"></div>
+
+                <div class="form">
+                    <button type="submit" id="btn_register">Register</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            &copy 2021 Blue Mammoth Games.
+        </div>
+
+        <div class="footer-center">
+            <div class="contactus">
+                Contact Us
+            </div>
+
+            <div class="contact-us-content">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" class="contact-us-img">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" class="contact-us-img">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" class="contact-us-img">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="images/youtube.png" class="contact-us-img">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="find-us-content">
+                <a href="https://store.steampowered.com/">
+                    <img src="images/steamlogo.png" class="find-us-img">
+                </a>
+                <a href="https://store.playstation.com/en-id">
+                    <img src="images/PS4_white.png" class="find-us-img">
+                </a>
+                <a href="https://www.xbox.com/en-US/microsoft-store">
+                    <img src="images/XBOX-One.png" class="find-us-img">
+                </a>
+                <a href="https://www.nintendo.com/games/">
+                    <img src="images/Nintendo-Switch.png" class="find-us-img">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
